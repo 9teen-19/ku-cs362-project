@@ -1,0 +1,6 @@
+name: $APP_NAME
+
+services:
+  app:
+    build:
+      dockerfile: ./.devcontainer/Dockerfile
