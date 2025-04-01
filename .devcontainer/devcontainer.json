@@ -37,11 +37,13 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"terminal.integrated.defaultProfile.linux": "bash"
+				"terminal.integrated.defaultProfile.linux": "bash",
+				"notebook.lineNumbers": "on"
 			},
 			"extensions": [
 				"ms-toolsai.jupyter",
-				"ms-python.python"
+				"ms-python.python",
+				"mechatroner.rainbow-csv"
 			]
 		}
 	},
